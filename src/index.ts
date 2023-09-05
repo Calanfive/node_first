@@ -29,5 +29,6 @@ const pers : Ipersonne = {
 const newName = {...pers, nom:"laforge", prenom:"thomas"}
 
 const newName2 = {...pers, nom:"amish", prenom:"fatir"}
+
 console.log(pers, newName, newName2);
 
