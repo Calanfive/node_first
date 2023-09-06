@@ -47,15 +47,30 @@ https://www.digitalocean.com/community/tutorials/nodejs-command-line-arguments-n
 6 - changer le nom et le prenom de la personne2 par Amish et Fatir
 7 - loguer les trois objets
 
-### CrÃ©ation d'un fichier JSON
+### Création d'un fichier JSON
 
 1 - Installer la dÃ©pendance fs-extra
-2 - CrÃ©er un fichier JSON avec l'objet personne
+2 - Créer un fichier JSON avec l'objet personne
 3 - Lire le fichier JSON et loguer le contenu
 
 ### Les variables d'environnement
 
 1 - CrÃ©er un fichier .env
 2 - Ajouter une variable d'environnement "NAME" avec la valeur de votre nom
-3 - Installer la dÃ©pendance dotenv
+3 - Installer la dépendance dotenv
 4 - Lire la variable d'environnement et loguer "Bonjour" et le nom fourni
+
+
+#### Routes à créer
+/toto => affiche dans la console : "toto" et renvoie "toto"
+/date  => renvoie la date actuelle
+/thomas => renvoie un objet javascript { nom: "Laforge", prenom: "Thomas" }
+/files => crée un fichier toto.txt sur le serveur
+/random => renvoie un nombre aléatoire
+/randomBetween => renvoie un nombre compris entre deux nombre fourni dans request
+
+#### Bonus
+/simplon/logo => renvoie le logo de simplon
+/simplon/web => renvoie une page html avec un h1 simplon + icon simplon
+/simplon/connection => connecte si le login + mot de passe est bon (votre choix)
+/simplon/connected => renvoie connecté ou pas connecté

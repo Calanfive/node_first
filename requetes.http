@@ -1,0 +1,14 @@
+GET http://localhost:3555/toto
+
+###
+
+GET http://localhost:3566/date
+
+###
+
+GET http://localhost:3566/random-between/1/10
+
+###
+GET http://localhost:3566/random-between/45/10676
+
+###
